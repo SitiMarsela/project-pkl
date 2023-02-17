@@ -1,7 +1,7 @@
-<body>
-    <!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,28 +9,47 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- 1. owl carousel min css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<!-- 2. owl caraousel theme min css -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-  integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 2. owl caraousel theme min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="./style.css">
-    <title>Tempat PKL</title>
-  </head>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
-  <body>
+    <link rel="stylesheet" href="./style.css">
+    <title>Tempat PKL</title>
+</head>
+
+<style>
+    .header {
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-image: url(img/header1.jpg);
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+        background-attachment: fixed;
+    }
+
+    .header_content2 {
+        padding-top: 1rem;
+        /* background-image: url(); */
+    }
+</style>
+
+<body>
     {{-- Navbar --}}
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #C1EFFF">
         <div class="container">
-          <img src="img/about.png" alt="">
+            <img src="img/about.png" alt="">
             <a class="navbar-brand" href="#">Winata Cyber Net</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,16 +58,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto" style="padding-right: 70px">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item" >
-                        <a class="nav-link" href="#">Service</a>
+                        <a class="nav-link active" aria-current="page" href="header">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonial</a>
+                        <a class="nav-link" href="jurusan">Jurusan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ketentuan">Ketentuan</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -57,167 +76,637 @@
             </div>
         </div>
     </nav>
-
     {{-- Akhir Navbar --}}
-    
+
 
     {{-- header --}}
+    <div class="header">
+        <div class="container">
+            <div class="header_content2 justify-content-center mt-5">
+                <div class="hc_1 mb-2 mt-5">
+                    <p class="text-white text-center mt-5" style="font-weight:700;font-size:64px">Prakerin Winata Cyber
+                        Net</p>
+                    <p class="text-white text-center" style="font-size: 20px">Perusahaan yang lebih fokus ke pemasaran
+                        online & berhubungan dengan dunia digital marketing</p>
+                </div>
+                <div class="hc_2 d-flex justify-content-center">
+                    <a href="/formpendaftaran"><button type="button" class="btn btn-primary">DAFTAR
+                            SEKARANG</button></a>
 
-    <section id="header" class="header">
-            <div class="container1">
-                <div class="title">
-                    <h1>Prakerin Di Winata Cyber Net</h1>
-                    <!-- lorem14 -->
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, quo est? blanditiis maiores beatae!</p>
-                    <a class="btn btn-primary fw-bold my-5 py-3 px-5" href="">DAFTAR SEKARANG</a>
                 </div>
             </div>
-    </section>
+        </div>
+    </div>
     {{-- akhir header --}}
 
     {{-- about us --}}
 
-    <section id="about">
-        <div class="container2">
-            <img src="img/about1.jpg" alt="">
-            <div class="title2">
-                <h1 data-aos="fade-up">About Us</h1>
-                <!-- lorem7 -->
-                <h4 data-aos="fade-up">Prakerin Winata Cyber Net</h4>
-                <!-- lorem50 -->
-                <p data-aos="fade-up"> Winata Cyber Net merupakan perusahaan yang lebih fokus ke pemasaran online dan berhubungan dengan teknologi informasi atau dunia digital marketing. Seperti Dunia Usaha Dunia Industri yang lainnya, Winata Cyber Net juga menerima siswa PRAKERIN. Seperti yang sudah diketahui, bahwa kami membuka Lowongan PKL di Cibubur dan sekitarnya.</p>
+    {{-- <div class="container1">
+        <div class="about-us">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/about.png" alt="" class="img-fluid">
+                </div>
 
-                <p data-aos="fade-up"> Winata Cyber Net saat ini kami masih menerapkan sistem PRAKERIN seperti pada umumnya, dimana siswa datang ke kantor dan bekerja sesuai bagiannya. Winata Cyber Net akan mulai mengembangkan sistem PRAKERIN online. Sehingga bisa memberikan kesempatan yang lebih luas bagi siswa siswi SMK/Umum yang berdomisili di luar daerah Cibubur.</p>
-                {{-- <button data-aos="fade-up">About us</button> --}}
+                <div class="col-md-6">
+                    <h3></h3>
+                </div>
             </div>
         </div>
-    </section>
-    {{-- about us akhir --}}
+    </div> --}}
 
-    {{-- jurusan --}}
-
-    <section id="jurusan">
-        <div class="container-fluid">
-            <h1 class="text-center fw-bold display-1 mb-3 pt-5">JURUSAN</h1>
-            <div class="row mt-5">
-              <div class="owl-carousel owl-theme">
-                <div class="item mb-4">
-                  <div class="card border-0 shadow">
-                    <img src="" class="card-img-top" alt="image">
-                    <div class="card-body">
-                      <h5 class="text-center">BDP (Bisnis Daring Pemasaran)</h5>
+    <div class="container1">
+        <div class="container1-1">
+            <div class="about-us">
+                <div class="row">
+                    <div class="col-md-6 mt-5 text-center">
+                        <img src="{{asset('img/about.png')}}" alt="" class="img-fluid">
                     </div>
-                  </div>
-                </div>
-                <!-- item end -->
-                <div class="item mb-4">
-                  <div class="card border-0 shadow">
-                    <img src="img/multi.jpg" class="card-img-top" alt="image">
-                    <div class="card-body">
-                      <h5 class="text-center">MM (Multimedia)</h5>
+                    <div class="col-md-6 mt-5">
+                        <h4 style="font-weight: 700;
+                            font-size: 32px; padding-top:40px;">About Us</h4>
+                        <h4 class="pb-4 fw-bold">Prakerin Winata Cyber Net</h4>
+                        <p class="pe-5">Winata Cyber Net merupakan perusahaan yang lebih fokus ke pemasaran online dan
+                            berhubungan dengan teknologi informasi atau dunia digital marketing. Seperti Dunia Usaha
+                            Dunia
+                            Industri yang lainnya, Winata Cyber Net juga menerima siswa PRAKERIN. Seperti yang sudah
+                            diketahui, bahwa kami membuka Lowongan PKL di Cibubur dan sekitarnya.
+                            <br>
+                            <br>
+                            Winata Cyber Net saat ini kami masih menerapkan sistem PRAKERIN seperti pada umumnya, dimana
+                            siswa datang ke kantor dan bekerja sesuai bagiannya. Winata Cyber Net akan mulai
+                            mengembangkan
+                            sistem PRAKERIN online. Sehingga bisa memberikan kesempatan yang lebih luas bagi siswa siswi
+                            SMK/Umum yang berdomisili di luar daerah Cibubur.
+                        </p>
                     </div>
-                  </div>
                 </div>
-                <!-- item end -->
-                <div class="item mb-4">
-                  <div class="card border-0 shadow">
-                    <img src="hospital2/images/Doctor3.jpg" class="card-img-top" alt="image">
-                    <div class="card-body">
-                      <h5 class="text-center">Design Grafis</h5>
-                    </div>
-                  </div>
-                </div>
-                <!-- item end -->
-                <div class="item mb-4">
-                  <div class="card border-0 shadow">
-                    <img src="hospital2/images/Doctor4.jpg" class="card-img-top" alt="image">
-                    <div class="card-body">
-                      <h5 class="text-center">Animasi</h5>
-                    </div>
-                  </div>
-                </div>
-                <!-- item end -->
-                <div class="item mb-4">
-                  <div class="card border-0 shadow">
-                    <img src="hospital2/images/about.jpg" class="card-img-top" alt="image">
-                    <div class="card-body">
-                      <h5 class="text-center">RPL (Rekayasa Perangkat Lunak)</h5>
-                    </div>
-                  </div>
-                </div>
-                <!-- item end -->
-                <div class="item mb-4">
-                  <div class="card border-0 shadow">
-                    <img src="hospital2/images/Doctor3.jpg" class="card-img-top" alt="image">
-                    <div class="card-body">
-                      <h5 class="text-center">TKJ (Teknik Komputer dan Jaringan)</h5>
-                    </div>
-                  </div>
-                </div>
-                <!-- item end -->
-                <div class="item mb-4">
-                  <div class="card border-0 shadow">
-                    <img src="hospital2/images/Doctor1.jpg" class="card-img-top" alt="image">
-                    <div class="card-body">
-                      <h5 class="text-center">OTKP (Otomatisasi dan Tatakelola Perkantoran)</h5>
-                    </div>
-                  </div>
-                </div>
-                <!-- item end -->
-              </div>
             </div>
-          </div>
+        </div>
+        {{-- akhir about us --}}
 
-        </section>
-    {{-- jurusan akhir --}}
+        {{-- Jurusan --}}
+        <div class="container2">
+            <div class="jurusan">
+                <h1 class="text-center fw-bold display-1 mb-3 pt-5">JURUSAN</h1>
+                <div class="row mt-5 me-5 ms-5">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="img/bdp.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Bisnis Daring Pemasaran</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="img/multi.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Multimedia</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="img/design.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Design Grafis</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="img/animasi.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Animasi</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="img/rpl.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Rekayasa Perangkat Lunak</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="img/tkj.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Teknik Komputer dan Jaringan</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="img/otkp.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Otomatisasi dan Tatakelola Perkantoran</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    {{-- Ketentuan --}}
-          <section class="ketentuan">
-              <div class="container3">
-                
-              </div>
-          </section>
+        {{-- akhir jurusan --}}
 
-    {{-- akhir ketentuan --}}
+        {{-- Ketentuan --}}
 
-   <!-- Option 1: Bootstrap Bundle with Popper -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
+        <div class="container3">
+            <div class="ketentuan">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="sticky-md-top text-center pt-5 pb-5">
+                            <h1 class="fw-bold text-center mt-5 pt-5">Ketentuan PKL</h1>
+                            <img src="img/about.png" alt="" style="width: 250px; height:250px">
+                            <p class="text-center pt-4 pe-4 ps-4">Selama melaksanakan PKL di Winata Cyber Net, peserta
+                                akan dibimbing dan disesuaikan dengan jurusan/keahlian masing-masing.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="sticky-content mt-5 pe-5">
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Calon Peserta PKL harus memenuhi seluruh persyaratan pendaftaran</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Mengikuti Psikotest dan Interview sesuai jadwal yang ditentukan</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Calon peserta PKL wajib mengikuti tes kemampuan dasar & keahliannya sesuai jurusan
+                                    masing-masing</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Bisa mengoperasionalkan MS Office (MS Word, MS Excel dan MS Power Point) </h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Membawa Smartphone & Laptop (Smartphone + OTG + keyboard wireless + mouse wireless +
+                                    tripod mini)</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Membawa kartu perdana yang sudah ter-registrasi (AON 3) dengan masa aktif 1 tahun
+                                    dan siap pakai.</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Peserta PKL tidak mendapat Gaji – Uang Transortasi – Uang Makan</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Peserta PKL akan mendapatkan Beasiswa senilai Rp 500.000,- /bulan jika Sekolah &
+                                    Perusahaan sudah ada MoU</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Peserta PKL yang dari pihak Sekolah-nya belum ada MoU dengan Perusahaan akan
+                                    menerima Voucher Beasiswa Senilai Rp 400.000,- & selebihnya di bebankan ke peserta
+                                    PKL /bulan nya</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Peserta PKL tidak mendapat penginapan, bagi yang tinggal di luar kota</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Durasi PKL minimal selama 6 Bulan atau 1 Tahun
+                                    </h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Jam Kerja mulai 08:00 – 16:00</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Peserta PKL wajib mengikuti pembekalan selama 2 minggu (100% kehadiran) sebagai
+                                    syarat kelulusan</h3>
+                            </div>
+
+                            <div class="bg-primary mb-3 text-white p-3">
+                                <h5>Seluruh peserta PKL wajib mengikuti dan mentaati peraturan perusahaan</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{-- Tata Tertib --}}
+
+        <div class="container4" style="background-color:  #C1EFFF">
+            <div class="tertib">
+                <h3 class="text-center fw-bold pt-4" style="font-size: 4rem">TATA TERTIB</h3>
+                {{-- <div class="garis mb-5"></div> --}}
+
+                <div class="row justify-content-center mt-4 ps-5 gx-5">
+                    <div class="col-md-6 d-flex pb-5">
+                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <div class="bungkus ps-2 pt-1 pe-5">
+                            <h4 class="fw-bold">Perilaku</h4>
+                            <p class="fw-light font12">Harus jujur, bertanggung jawab, berlaku sopan, disiplin, dan
+                                mampu mematuhi semua tata tertib selama pelaksanaan PKL
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex pb-5">
+                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <div class="bungkus ps-2 pt-1 pe-5">
+                            <h4 class="fw-bold">Izin</h4>
+                            <p class="fw-light font12">Peserta PKL yang Sakit Wajib membawa surat Dokter
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Force next columns to break to new line at md breakpoint and up -->
+                    <div class="w-100 d-none d-md-block"></div>
+
+                    <div class="col-md-6 d-flex pb-5">
+                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <div class="bungkus ps-2 pt-1 pe-5">
+                            <h4 class="fw-bold">Produktifitas</h4>
+                            <p class="fw-light font12">Peserta PKL mampu mengikuti standar kualifikasi yang ditentukan
+                                selama mengikuti PKL.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+
+                        <div class="bungkus ps-2 pt-1 pe-5">
+                            <h4 class="fw-bold">Kehadiran</h4>
+                            <p class="fw-light font12">Peserta PKL harus hadir minimun 15 menit sebelum waktu PKL
+                                dimulai. Waktu PKL berlangsung dari pukul 08:00 sampai pukul 16:00 dengan waktu
+                                istirahat 1 jam.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Force next columns to break to new line at md breakpoint and up -->
+                    <div class="w-100 d-none d-md-block"></div>
+
+                    <div class="col-md-6 d-flex">
+                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <div class="bungkus ps-2 pt-1 pe-5">
+                            <h4 class="fw-bold">Pakaian</h4>
+                            <p class="fw-light font12">Pada saat Pembekalan diwajibkan memakai baju seragam sekolah atau
+                                baju seragam praktek</p>
+                            <p class="pt-1">
+                                Pada saat Pelaksanaan PKL, wajib mengenakan pakaian yang sopan dan rapi. Khusus Hari
+                                Kamis wajib menggunakan Baju Seragam Praktek.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <div class="bungkus ps-2 pt-1 pe-5">
+                            <h4 class="fw-bold">Sanksi</h4>
+                            <p class="fw-light font12">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+                                autem,perferendis ipsum dolore soluta at dolorum libero aperiam molestias voluptate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- Akhir Tata Tertib --}}
+
+        {{-- Materi --}}
+
+        <div class="container5">
+            <div class="materi text-center">
+                <h1 class="text-center fw-bold pt-4">MATERI</h1>
+                <div class="garis mb-5"></div>
+
+                <div class="row justify-content-center mt-5 me-5 ms-5 mb-5">
+                    <div class="col-md-3">
+                        <img src="img/materi1.png" alt="" style=" width:130px; height:100px" class="mt-2">
+                        <h4 class="pt-4 fw-bold">Pondasi Internet Marketing</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/materi2.png" alt="" style=" width:130px; height:100px" class="mt-2">
+                        <h4 class="pt-4 fw-bold">Riset Online</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/materi3.png" alt="" style=" width:130px; height:100px" class="mt-2">
+                        <h4 class="pt-4 fw-bold">Content Creator</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/materi7.png" alt="" style=" width:130px; height:100px" class="mt-2">
+                        <h4 class="pt-4 fw-bold">Video Marketing</h4>
+                    </div>
+
+                    <!-- Force next columns to break to new line at md breakpoint and up -->
+                    <div class="w-100 d-none d-md-block" style="padding-top: 5.5rem"></div>
+
+                    <div class="col-md-3">
+                        <img src="img/materi4.png" alt="" style=" width:130px; height:100px" class="mt-2">
+                        <h4 class="pt-4 fw-bold">Dokumen Marketing</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/materi5.png" alt="" style=" width:130px; height:100px" class="mt-2">
+                        <h4 class="pt-4 fw-bold">Facebook Marketing</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/materi6.png" alt="" style=" width:130px; height:100px" class="mt-2">
+                        <h4 class="pt-4 fw-bold">Blog Marketing</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/materi8.png" alt="" style=" width:130px; height:100px" class="mt-2">
+                        <h4 class="pt-4 fw-bold">Website Developer</h4>
+                    </div>
+                </div>
+            </div>
+            {{-- Akhir Materi --}}
+        </div>
+
+        {{-- Pembimbing --}}
+        <div class="container5" style="background-color: aquamarine">
+            <div class="pembimbing">
+                <h3 class="text-center fw-bold display-1 mb-3 pt-5">Pembimbing</h3>
+                <div class="row mt-5 pb-5 justify-content-center">
+                    <div class="col-md-2">
+                        <div class="item1">
+                            <div class="card">
+                                <img src="img/bdp.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Nursjamsiah,Ir</h5>
+                                    <p>CEO & SEO Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="item1">
+                            <div class="card">
+                                <img src="img/multi.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Fadli Jihad</h5>
+                                    <p>CFO & HR</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="item1">
+                            <div class="card">
+                                <img src="img/design.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Aprianto</h5>
+                                    <p>Social Media Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="item1">
+                            <div class="card">
+                                <img src="img/animasi.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center mt-4">Rian M</h5>
+                                    <p>Copywriter</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- Akhir Pembimbing --}}
 
 
- <!-- include cdn files -->
-      
-        <!-- 0. jquery cdn -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-          integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      
-        <!-- 1. owl carousel min .js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-          integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      
-        <!-- init owl carousel -->
-        <script>
-          $('.owl-carousel').owlCarousel({
+        {{-- Gallery --}}
+
+        <!-- Swiper -->
+        {{-- <div class="swiper mySwiper w-60" id="gallery">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/bacth1.jpeg"></div>
+                <div class="swiper-slide"><img src="img/bacth2.jpeg"></div>
+                <div class="swiper-slide"><img src="img/bacth3.jpeg"></div>
+                <div class="swiper-slide"><img src="img/bacth4.jpeg"></div>
+                <div class="swiper-slide"><img src="img/bacth5.jpeg"></div>
+                <div class="swiper-slide"><img src="img/bacth6.jpeg"></div>
+                <div class="swiper-slide"><img src="img/bacth7.jpeg"></div>
+                <div class="swiper-slide"><img src="img/bacth8.jpeg"></div>
+                <div class="swiper-slide"><img src="img/bacth9.jpeg"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div> --}}
+
+        <!-- Swiper End -->
+
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <h1 class="fw-bold text-center">GALLERY</h1>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7"
+                    aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8"
+                    aria-label="Slide 9"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/bacth1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PKL Batch #1</h5>
+                        <p>SMKN 67 Jakarta Timur</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bacth2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SPKL Batch #2</h5>
+                        <p>SMK BIT Bina Aulia
+                            <br>
+                            Bojong Kulur - Bekasi
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bacth3.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PKL Batch #3</h5>
+                        <p>SMK Taruna Bhakti
+                            <br>
+                            SMK 67 Jakarta Timur
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bacth4.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PKL Batch #4</h5>
+                        <p>SMK Taruna Bhakti</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bacth5.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PKL Batch #5</h5>
+                        <p>SMKN 67 Jakarta Timur</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bacth6.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PKL Batch #6</h5>
+                        <p>SMKN 67 Jakarta Timur</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bacth1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carouse7-caption d-none d-md-block">
+                        <h5>PKL Batch #7</h5>
+                        <p>SMK Madya Depok</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bacth8.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PKL Batch #8</h5>
+                        <p>SMK Taruna Bhakti</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bacth9.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PKL Batch #9</h5>
+                        <p>SMK Taruna Bhakti</p>
+                    </div>
+                </div>
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PKL Batch #10</h5>
+                        <p>SMK 64 Jakarta</p>
+                    </div>
+                </div>
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PKL Batch #11</h5>
+                        <p>SMK Bina Mandiri Multimedia</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        {{-- Akhir Gallery --}}
+    </div>
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+
+    <!-- include cdn files -->
+
+    <!-- 0. jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- 1. owl carousel min .js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
             loop: true,
             margin: 10,
-            // nav:true,
-      
             autoplay: true,
             autoplayTimeout: 1000,
-            autoplayHoverPause: true
-          });
-          $('.play').on('click', function () {
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+        $('.play').on('click', function () {
             owl.trigger('play.owl.autoplay', [1000])
-          })
-          $('.stop').on('click', function () {
+        })
+        $('.stop').on('click', function () {
             owl.trigger('stop.owl.autoplay')
-          })
-        </script>
+        })
+    </script>
 
-<!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- Template Javascript -->
+    {{-- <script src="js/main.js"></script> --}}
+
+</body>
+
 </html>

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -174,3 +178,79 @@ body{
 
 
 /* jurusan akhir */
+
+/* Ketentuan */
+
+/* .sticky-area #menu{
+    display: flex;
+}
+
+.sticky #sticy{
+    width: 50%;
+    height: 100vh;
+    background-color: var(--hijau);
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 90PX;
+    top: 0;
+    left: 0;
+}
+
+.sticky img{
+    display: block;
+    position: absolute;
+    transform: scale(.7);
+    top: -190px;
+    left: 70px;
+    z-index: 3;
+}
+
+.sticky h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.sticky p{
+    margin-top: 30px;
+    opacity: 0.9;
+}
+
+.sticky  a{
+    margin-top: 30px;
+}
+
+.sticky-content{
+    width: 50%;
+}
+
+.sticky-content div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-content div img{
+    width: 300px;
+}
+
+.sticky-content div:nth-child(1){
+    background-color: var(--ungu);
+}
+
+.sticky-content div:nth-child(2){
+    background-color: var(--pinkmuda);
+}
+
+.sticky-content div:nth-child(3){
+    background-color: var(--pink);
+}
+
+.sticky-content div:nth-child(4){
+    background-color: var(--birumuda);
+} */
+
+/* Ketentuan Akhir */

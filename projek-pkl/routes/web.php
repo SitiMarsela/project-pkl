@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Index');
 });
+
+Route::get('/formpendaftaran', function () {
+    return view('Formpendaftaran.created');
+});
+
+Route::get('/datapkl', function () {
+    return view('layout1');
+});
