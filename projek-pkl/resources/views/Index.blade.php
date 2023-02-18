@@ -306,18 +306,18 @@
                 {{-- <div class="garis mb-5"></div> --}}
 
                 <div class="row justify-content-center mt-4 ps-5 gx-5">
-                    <div class="col-md-6 d-flex pb-5">
+                    <div class="col-md-6 d-flex pb-4 ps-5">
                         <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
-                        <div class="bungkus ps-2 pt-1 pe-5">
+                        <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Perilaku</h4>
                             <p class="fw-light font12">Harus jujur, bertanggung jawab, berlaku sopan, disiplin, dan
                                 mampu mematuhi semua tata tertib selama pelaksanaan PKL
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 d-flex pb-5">
+                    <div class="col-md-6 d-flex pb-4">
                         <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
-                        <div class="bungkus ps-2 pt-1 pe-5">
+                        <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Izin</h4>
                             <p class="fw-light font12">Peserta PKL yang Sakit Wajib membawa surat Dokter
                             </p>
@@ -326,20 +326,10 @@
 
                     <!-- Force next columns to break to new line at md breakpoint and up -->
                     <div class="w-100 d-none d-md-block"></div>
-
-                    <div class="col-md-6 d-flex pb-5">
+                    
+                    <div class="col-md-6 d-flex ps-5">
                         <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
-                        <div class="bungkus ps-2 pt-1 pe-5">
-                            <h4 class="fw-bold">Produktifitas</h4>
-                            <p class="fw-light font12">Peserta PKL mampu mengikuti standar kualifikasi yang ditentukan
-                                selama mengikuti PKL.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-flex">
-                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
-
-                        <div class="bungkus ps-2 pt-1 pe-5">
+                        <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Kehadiran</h4>
                             <p class="fw-light font12">Peserta PKL harus hadir minimun 15 menit sebelum waktu PKL
                                 dimulai. Waktu PKL berlangsung dari pukul 08:00 sampai pukul 16:00 dengan waktu
@@ -347,29 +337,38 @@
                             </p>
                         </div>
                     </div>
-
+                    <div class="col-md-6 d-flex pb-4">
+                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <div class="bungkus ps-4 pt-1 pe-5">
+                            <h4 class="fw-bold">Produktifitas</h4>
+                            <p class="fw-light font12">Peserta PKL mampu mengikuti standar kualifikasi yang ditentukan
+                                selama mengikuti PKL.
+                            </p>
+                        </div>
+                    </div>
                     <!-- Force next columns to break to new line at md breakpoint and up -->
                     <div class="w-100 d-none d-md-block"></div>
 
-                    <div class="col-md-6 d-flex">
+                    <div class="col-md-6 d-flex ps-5 pe-5">
                         <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
-                        <div class="bungkus ps-2 pt-1 pe-5">
+                        <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Pakaian</h4>
-                            <p class="fw-light font12">Pada saat Pembekalan diwajibkan memakai baju seragam sekolah atau
-                                baju seragam praktek</p>
+                            <p class="fw-light font12">Pada saat Pembekalan diwajibkan memakai baju seragam sekolah.
+                            </p>
                             <p class="pt-1">
-                                Pada saat Pelaksanaan PKL, wajib mengenakan pakaian yang sopan dan rapi. Khusus Hari
+                                Pada saat Pelaksanaan PKL, mengenakan pakaian yang sopan dan rapi. Khusus Hari
                                 Kamis wajib menggunakan Baju Seragam Praktek.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6 d-flex">
                         <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
-                        <div class="bungkus ps-2 pt-1 pe-5">
+                        <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Sanksi</h4>
-                            <p class="fw-light font12">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
-                                autem,perferendis ipsum dolore soluta at dolorum libero aperiam molestias voluptate.
+                            <p class="fw-light font12">Peringatan lisan atau tidak diperbolehkan masuk praktek / PKL
                             </p>
+                            <p class="pt-1">Peringatan Tertulis dengan tembusan ke Sekolah yang bersangkutan</p>
+                            <p>Surat pengembalian peserta ke asal sekolah dan tanpa diberikan sertifikat.</p>
                         </div>
                     </div>
                 </div>
@@ -429,15 +428,15 @@
         {{-- Pembimbing --}}
         <div class="container5">
             <div class="pembimbing">
-                <h3 class="text-center fw-bold display-1 mb-3 pt-5">Pembimbing</h3>
+                <h1 class="text-center fw-bold display-1 mb-3 pt-5">Pembimbing</h1>
                 <div class="row mt-5 pb-5 justify-content-center">
                     <div class="col-md-2">
                         <div class="item1">
                             <div class="card">
-                                <img src="img/bdp.jpg" class="card-img-top" alt="image">
+                                <img src="img/bunur.jpg" class="card-img-top" alt="image">
                                 <div class="card-body">
-                                    <h5 class="text-center mt-4">Nursjamsiah,Ir</h5>
-                                    <p>CEO & SEO Specialist</p>
+                                    <h5 class="text-center fw-bold mt-4">Nursjamsiah,Ir</h5>
+                                    <p class="text-center" style="background-color: #C1EFFF">CEO</p>
                                 </div>
                             </div>
                         </div>
@@ -445,22 +444,10 @@
                     <div class="col-md-2">
                         <div class="item1">
                             <div class="card">
-                                <img src="img/multi.jpg" class="card-img-top" alt="image">
+                                <img src="img/pakfadli.jpg" class="card-img-top" alt="image">
                                 <div class="card-body">
-                                    <h5 class="text-center mt-4">Fadli Jihad</h5>
-                                    <p>CFO & HR</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-                        <div class="item1">
-                            <div class="card">
-                                <img src="img/design.jpg" class="card-img-top" alt="image">
-                                <div class="card-body">
-                                    <h5 class="text-center mt-4">Aprianto</h5>
-                                    <p>Social Media Specialist</p>
+                                    <h5 class="text-center fw-bold mt-4">Fadli Jihad</h5>
+                                    <p class="text-center" style="background-color: #C1EFFF">HRD</p>
                                 </div>
                             </div>
                         </div>
@@ -469,10 +456,22 @@
                     <div class="col-md-2">
                         <div class="item1">
                             <div class="card">
-                                <img src="img/animasi.jpg" class="card-img-top" alt="image">
+                                <img src="img/pakapri.jpg" class="card-img-top" alt="image">
                                 <div class="card-body">
-                                    <h5 class="text-center mt-4">Rian M</h5>
-                                    <p>Copywriter</p>
+                                    <h5 class="text-center fw-bold mt-4">Aprianto</h5>
+                                    <p class="text-center" style="background-color: #C1EFFF">Pembimbing</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="item1">
+                            <div class="card">
+                                <img src="img/pakrian.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="text-center fw-bold mt-4">Rian M</h5>
+                                    <p class="text-center" style="background-color: #C1EFFF">Pembimbing</p>
                                 </div>
                             </div>
                         </div>
@@ -486,7 +485,8 @@
         {{-- Gallery --}}
 
         <!-- Swiper -->
-        <div class="swiper mySwiper w-60 pb-5" id="gallery">
+        <div class="container6">
+           <div class="swiper mySwiper w-60 pb-5" id="gallery">
             <h1 class="text-center fw-bold mt-5">GALLERY</h1>
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="img/bacth1.jpeg"></div>
@@ -502,7 +502,9 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
+        </div> 
         </div>
+        
         <!-- Swiper End -->
 
 
@@ -589,6 +591,7 @@
         var swiper = new Swiper(".mySwiper", {
             spaceBetween: 30,
             centeredSlides: true,
+            responsiveClass: true,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false,

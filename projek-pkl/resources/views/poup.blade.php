@@ -23,7 +23,7 @@
         <div class="card-body">
             <h5 class="card-title">PRAKERIN WINATA CYBER NET</h5>
             <p class="card-text">Terimakasih Jawaban Anda telah tercatat, Silahkan Klik Link dibawah ini Untuk Konfirmasi Pendaftaran </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="https://chat.whatsapp.com/I8jHfzb0Tfr8ijaDLgjOvq" class="btn btn-primary">Go somewhere</a>
         </div>
     </div>  
     </div>
