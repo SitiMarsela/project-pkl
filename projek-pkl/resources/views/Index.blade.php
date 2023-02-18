@@ -90,8 +90,7 @@
                         online & berhubungan dengan dunia digital marketing</p>
                 </div>
                 <div class="hc_2 d-flex justify-content-center">
-                    <a href="/formpendaftaran"><button type="button" class="btn btn-primary">DAFTAR
-                            SEKARANG</button></a>
+                    <a href="/formpendaftaran"><button type="button" class="btn btn-primary">DAFTAR SEKARANG</button></a>
 
                 </div>
             </div>
@@ -428,7 +427,7 @@
         </div>
 
         {{-- Pembimbing --}}
-        <div class="container5" style="background-color: aquamarine">
+        <div class="container5">
             <div class="pembimbing">
                 <h3 class="text-center fw-bold display-1 mb-3 pt-5">Pembimbing</h3>
                 <div class="row mt-5 pb-5 justify-content-center">
@@ -487,7 +486,8 @@
         {{-- Gallery --}}
 
         <!-- Swiper -->
-        {{-- <div class="swiper mySwiper w-60" id="gallery">
+        <div class="swiper mySwiper w-60 pb-5" id="gallery">
+            <h1 class="text-center fw-bold mt-5">GALLERY</h1>
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="img/bacth1.jpeg"></div>
                 <div class="swiper-slide"><img src="img/bacth2.jpeg"></div>
@@ -502,137 +502,37 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
-        </div> --}}
-
+        </div>
         <!-- Swiper End -->
 
 
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <h1 class="fw-bold text-center">GALLERY</h1>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
-                    aria-label="Slide 6"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6"
-                    aria-label="Slide 7"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7"
-                    aria-label="Slide 8"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8"
-                    aria-label="Slide 9"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="img/bacth1.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PKL Batch #1</h5>
-                        <p>SMKN 67 Jakarta Timur</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/bacth2.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>SPKL Batch #2</h5>
-                        <p>SMK BIT Bina Aulia
-                            <br>
-                            Bojong Kulur - Bekasi
-                        </p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/bacth3.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PKL Batch #3</h5>
-                        <p>SMK Taruna Bhakti
-                            <br>
-                            SMK 67 Jakarta Timur
-                        </p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/bacth4.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PKL Batch #4</h5>
-                        <p>SMK Taruna Bhakti</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/bacth5.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PKL Batch #5</h5>
-                        <p>SMKN 67 Jakarta Timur</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/bacth6.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PKL Batch #6</h5>
-                        <p>SMKN 67 Jakarta Timur</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/bacth1.jpeg" class="d-block w-100" alt="...">
-                    <div class="carouse7-caption d-none d-md-block">
-                        <h5>PKL Batch #7</h5>
-                        <p>SMK Madya Depok</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/bacth8.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PKL Batch #8</h5>
-                        <p>SMK Taruna Bhakti</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="img/bacth9.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PKL Batch #9</h5>
-                        <p>SMK Taruna Bhakti</p>
-                    </div>
-                </div>
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PKL Batch #10</h5>
-                        <p>SMK 64 Jakarta</p>
-                    </div>
-                </div>
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>PKL Batch #11</h5>
-                        <p>SMK Bina Mandiri Multimedia</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
 
-        {{-- Akhir Gallery --}}
+      
+
+        
+        <!-- footer -->
+
+        
+
+        {{-- akhir footer --}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
-
-
-
-
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
@@ -702,8 +602,32 @@
                 prevEl: ".swiper-button-prev",
             },
         });
+
     </script>
 
+
+    <script>
+        let naik = document.querySelector(".naik");
+        let home = document.querySelector(".home");
+
+        let homeoption = {
+            rootMargin: "-200px 0px 0px 0px"
+        };
+
+        let homeobserver = new IntersectionObserver(function (entries, homeobserver) {
+                entries.forEach(entry => {
+                    console.log(entry.target);
+                    if (!entry.isIntersecting) {
+                        naik.style.display = "block";
+                    } else {
+                        naik.style.display = "none";
+                    }
+                });
+            },
+            homeoption);
+
+        homeobserver.observe(home);
+    </script>
     <!-- Template Javascript -->
     {{-- <script src="js/main.js"></script> --}}
 
