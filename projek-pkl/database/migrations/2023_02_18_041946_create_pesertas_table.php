@@ -19,14 +19,14 @@ return new class extends Migration
             $table->string('nama');
             $table->enum('jk', ['Laki-laki', 'Perempuan']);
             $table->string('tgl');
-            $table->text('agama');
+            $table->enum('agama', ['Islam', 'Kristen', 'Katolik', 'Hindu', 'Budha']);
             $table->text('alamat_rmh');
             $table->string('notelp');
             $table->text('alamat_skl');
             $table->string('nofax');
-            $table->string('jurusan');
+            $table->enum('jurusan', ['Teknik Komputer Jaringan', 'Rekayasa Perangkat Lunak', 'Multimedia', 'Animasi', 'OTKP', 'BDP']);
             $table->string('nis');
-            $table->string('periode');
+            $table->enum('periode', ['4 April 2023 - 4 Juli 2023 (Batch 12)', '2 Mei 2023 - 1 Agustus 2023 (Batch 13)', '1 Agustus 2023 - 1 Febuari 2024 (Batch 14)']);
             $table->string('foto');
             $table->string('kartu');
             $table->string('cv');

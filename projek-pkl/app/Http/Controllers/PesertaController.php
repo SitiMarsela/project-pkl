@@ -43,6 +43,12 @@ class PesertaController extends Controller
                 $dataPeserta->foto = $request->file('foto')->getClientOriginalName();
                 $dataPeserta->save();
             }            
+
+            if($request->hasFile('kartu')){
+                $request->file('kartu')->move('kartu/.', $request->file('kartu')->getClientOriginalName());
+                $dataPeserta->kartu = $request->file('kartu')->getClientOriginalName();
+                $dataPeserta->save();
+            }     
     
             return Redirect('/terimakasih')->with('success', 'Data Berhasil Ditambahkan');
 

@@ -61,19 +61,19 @@
                             <td>{{ $item->nis }}</td>
                             <td>{{ $item->periode }}</td>
                             <td>
-                              <img src="{{asset('foto/'.$item->foto)}}" alt="" style="width: 100px">
+                              <img src="{{asset('foto/'.$item->foto)}}" alt="" style="width: 100px; height: 100px">
                             </td>
 
                             <td>
-                              <img src="{{asset('kartu/'.$item->kartu)}}" alt="" style="width: 100px">
+                              <img src="{{asset('kartu/'.$item->kartu)}}" alt="" style="width: 100px; height: 100px">
                             </td>
 
                             <td>
-                              <img src="{{asset('cv/'.$item->cv)}}" alt="" style="width: 100px">
+                              <img src="{{asset('cv/'.$item->cv)}}" alt="" style="width: 100px; height: 100px">
                             </td>
 
                             <td>
-                              <img src="{{asset('surat/'.$item->surat)}}" alt="" style="width: 100px">
+                              <img src="{{asset('surat/'.$item->surat)}}" alt="" style="width: 100px; height: 100px">
                             </td>
 
                             {{-- <td>

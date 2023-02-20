@@ -32,7 +32,7 @@
 <style>
     .header {
         height: 100vh;
-        width: 100vw;
+        /* width: 100vw; */
         background-size: cover;
         background-image: url(img/header1.jpg);
         box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
@@ -80,8 +80,8 @@
 
 
     {{-- header --}}
-    <div class="header">
-        <div class="container">
+    <div class="header w-100">
+        <div class="container w-100">
             <div class="header_content2 justify-content-center mt-5">
                 <div class="hc_1 mb-2 mt-5">
                     <p class="text-white text-center mt-5" style="font-weight:700;font-size:64px">Prakerin Winata Cyber
@@ -90,7 +90,8 @@
                         online & berhubungan dengan dunia digital marketing</p>
                 </div>
                 <div class="hc_2 d-flex justify-content-center">
-                    <a href="/formpendaftaran"><button type="button" class="btn btn-primary">DAFTAR SEKARANG</button></a>
+                    <a href="/formpendaftaran"><button type="button" class="btn btn-primary">DAFTAR
+                            SEKARANG</button></a>
 
                 </div>
             </div>
@@ -114,7 +115,7 @@
         </div>
     </div> --}}
 
-    <div class="container1">
+    <div class="container1 w-100">
         <div class="container1-1">
             <div class="about-us">
                 <div class="row">
@@ -301,13 +302,13 @@
         {{-- Tata Tertib --}}
 
         <div class="container4" style="background-color:  #C1EFFF">
-            <div class="tertib">
+            <div class="tertib w-100">
                 <h3 class="text-center fw-bold pt-4" style="font-size: 4rem">TATA TERTIB</h3>
                 {{-- <div class="garis mb-5"></div> --}}
 
                 <div class="row justify-content-center mt-4 ps-5 gx-5">
                     <div class="col-md-6 d-flex pb-4 ps-5">
-                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <img src="img/tata1.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
                         <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Perilaku</h4>
                             <p class="fw-light font12">Harus jujur, bertanggung jawab, berlaku sopan, disiplin, dan
@@ -316,7 +317,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex pb-4">
-                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <img src="img/tata3.jpg" alt="" style="border-radius: 500px; width:100px; height:95px">
                         <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Izin</h4>
                             <p class="fw-light font12">Peserta PKL yang Sakit Wajib membawa surat Dokter
@@ -326,9 +327,9 @@
 
                     <!-- Force next columns to break to new line at md breakpoint and up -->
                     <div class="w-100 d-none d-md-block"></div>
-                    
+
                     <div class="col-md-6 d-flex ps-5">
-                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <img src="img/tata2.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
                         <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Kehadiran</h4>
                             <p class="fw-light font12">Peserta PKL harus hadir minimun 15 menit sebelum waktu PKL
@@ -338,7 +339,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex pb-4">
-                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <img src="img/tata4.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
                         <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Produktifitas</h4>
                             <p class="fw-light font12">Peserta PKL mampu mengikuti standar kualifikasi yang ditentukan
@@ -350,7 +351,7 @@
                     <div class="w-100 d-none d-md-block"></div>
 
                     <div class="col-md-6 d-flex ps-5 pe-5">
-                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <img src="img/tata5.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
                         <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Pakaian</h4>
                             <p class="fw-light font12">Pada saat Pembekalan diwajibkan memakai baju seragam sekolah.
@@ -362,7 +363,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-flex">
-                        <img src="img/multi.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
+                        <img src="img/tata6.jpg" alt="" style="border-radius: 400px; width:100px; height:100px">
                         <div class="bungkus ps-4 pt-1 pe-5">
                             <h4 class="fw-bold">Sanksi</h4>
                             <p class="fw-light font12">Peringatan lisan atau tidak diperbolehkan masuk praktek / PKL
@@ -426,7 +427,7 @@
         </div>
 
         {{-- Pembimbing --}}
-        <div class="container5">
+        <div class="container6">
             <div class="pembimbing">
                 <h1 class="text-center fw-bold display-1 mb-3 pt-5">Pembimbing</h1>
                 <div class="row mt-5 pb-5 justify-content-center">
@@ -485,52 +486,62 @@
         {{-- Gallery --}}
 
         <!-- Swiper -->
-        <div class="container6">
-           <div class="swiper mySwiper w-60 pb-5" id="gallery">
-            <h1 class="text-center fw-bold mt-5">GALLERY</h1>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="img/bacth1.jpeg"></div>
-                <div class="swiper-slide"><img src="img/bacth2.jpeg"></div>
-                <div class="swiper-slide"><img src="img/bacth3.jpeg"></div>
-                <div class="swiper-slide"><img src="img/bacth4.jpeg"></div>
-                <div class="swiper-slide"><img src="img/bacth5.jpeg"></div>
-                <div class="swiper-slide"><img src="img/bacth6.jpeg"></div>
-                <div class="swiper-slide"><img src="img/bacth7.jpeg"></div>
-                <div class="swiper-slide"><img src="img/bacth8.jpeg"></div>
-                <div class="swiper-slide"><img src="img/bacth9.jpeg"></div>
+        <div class="container7 mb-5">
+            <div class="swiper mySwiper w-60 pb-5" id="gallery">
+                <h1 class="text-center fw-bold mt-5">GALLERY</h1>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/bacth1.jpeg"></div>
+                    <div class="swiper-slide"><img src="img/bacth2.jpeg"></div>
+                    <div class="swiper-slide"><img src="img/bacth3.jpeg"></div>
+                    <div class="swiper-slide"><img src="img/bacth4.jpeg"></div>
+                    <div class="swiper-slide"><img src="img/bacth5.jpeg"></div>
+                    <div class="swiper-slide"><img src="img/bacth6.jpeg"></div>
+                    <div class="swiper-slide"><img src="img/bacth7.jpeg"></div>
+                    <div class="swiper-slide"><img src="img/bacth8.jpeg"></div>
+                    <div class="swiper-slide"><img src="img/bacth9.jpeg"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-        </div> 
         </div>
-        
+
         <!-- Swiper End -->
 
+ <!-- lokasi -->
 
+ <div class="lokasi ">
+    <div class="container">
+        <div class="left">
+            <h2>Prakerin Winata Cyber Net</h2>
+            <p>Jl. Raya Kota Wisata, Boston RK-2 No.</p>
+            <p>Tiga Delapan, Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16968</p>
 
-      
+            <div class="sosmed">
+                <div class="icon" id="fb">
+                    <i class="fa-brands fa-facebook fa-xl"></i>
+                </div>
 
-        
-        <!-- footer -->
+                <div class="icon" id="yt">
+                    <i class="fa-brands fa-youtube fa-xl"></i>
+                </div>
 
-        
+                <div class="icon" id="ig">
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                </div>
 
-        {{-- akhir footer --}}
+                <div class="icon" id="wa">
+                    <i class="fa-brands fa-whatsapp fa-xl"></i>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <iframe src="https://www.google.com/maps/place/Tempat+PKL+Terbaik+di+Cibubur/@-6.3527376,106.9617275,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69936c48a20ee3:0xe323e1814be90896!8m2!3d-6.3527429!4d106.9639162!16s%2Fg%2F11p5thnv3k" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- footer -->
 
 
 
@@ -591,11 +602,11 @@
         var swiper = new Swiper(".mySwiper", {
             spaceBetween: 30,
             centeredSlides: true,
-            responsiveClass: true,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false,
             },
+
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
@@ -604,8 +615,8 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
-        });
 
+        });
     </script>
 
 

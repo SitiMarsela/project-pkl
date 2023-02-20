@@ -127,8 +127,8 @@
                             <option value="1">Islam</option>
                             <option value="2">Kristen</option>
                             <option value="3">Katolik</option>
-                            <option value="3">Hindu</option>
-                            <option value="3">Budha</option>
+                            <option value="4">Hindu</option>
+                            <option value="5">Budha</option>
                         </select>
                     </div>
 
@@ -175,15 +175,16 @@
                     </div>
 
                     <div class="bungkus">
+
                         <label for="exampleFormControlInput1" class="form-label">Program/Jurusan</label>
-                        <select class="form-select" name="jurusan" aria-label="Default select example">
+                        <select name="jurusan" class="form-select form-control" id="">
                             <option selected>Program/Jurusan</option>
                             <option value="1">Teknik Komputer Jaringan</option>
                             <option value="2">Rekayasa Perangkat Lunak</option>
                             <option value="3">Multimedia</option>
-                            <option value="3">Animasi</option>
-                            <option value="3">OTKP</option>
-                            <option value="3">BDP</option>
+                            <option value="4">Animasi</option>
+                            <option value="5">OTKP</option>
+                            <option value="6">BDP</option>
                         </select>
                     </div>
 
@@ -196,12 +197,9 @@
                         <label for="exampleFormControlInput1" class="form-label">Periode PKL</label>
                         <select class="form-select" name="periode" aria-label="Default select example">
                             <option selected>Priode PKL</option>
-                            <option value="1">Teknik Komputer Jaringan</option>
-                            <option value="2">Rekayasa Perangkat Lunak</option>
-                            <option value="3">Multimedia</option>
-                            <option value="3">Animasi</option>
-                            <option value="3">OTKP</option>
-                            <option value="3">BDP</option>
+                            <option value="1">4 April 2023 - 4 Juli 2023 (Batch 12)</option>
+                            <option value="2">2 Mei 2023 - 1 Agustus 2023 (Batch 13)</option>
+                            <option value="3">1 Agustus 2023 - 1 Febuari 2024 (Batch 14)</option>
                         </select>
                     </div>
 
