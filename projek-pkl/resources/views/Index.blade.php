@@ -510,12 +510,12 @@
 
  <!-- lokasi -->
 
- <div class="lokasi ">
+ <div class="lokasi">
     <div class="container">
         <div class="left">
             <h2>Prakerin Winata Cyber Net</h2>
             <p>Jl. Raya Kota Wisata, Boston RK-2 No.</p>
-            <p>Tiga Delapan, Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16968</p>
+            <p>Tiga Delapan(38), Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16968</p>
 
             <div class="sosmed">
                 <div class="icon" id="fb">

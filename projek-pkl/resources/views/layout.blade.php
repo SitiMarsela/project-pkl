@@ -136,6 +136,7 @@
         @yield('isi')
     </div>
 
+    
   
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
