@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 
     <!-- 1. owl carousel min css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -43,11 +45,15 @@
         padding-top: 1rem;
         /* background-image: url(); */
     }
+
+    .header .text1{
+        font-family: 'Dancing Script', cursive;
+    }
 </style>
 
 <body>
     {{-- Navbar --}}
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #C1EFFF">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <img src="img/about.png" alt="">
             <a class="navbar-brand" href="#">Winata Cyber Net</a>
@@ -86,11 +92,11 @@
                 <div class="hc_1 mb-2 mt-5">
                     <p class="text-white text-center mt-5" style="font-weight:700;font-size:64px">Prakerin Winata Cyber
                         Net</p>
-                    <p class="text-white text-center" style="font-size: 20px">Perusahaan yang lebih fokus ke pemasaran
+                    <p class="text1 text-white text-center" style="font-size: 20px;">Perusahaan yang lebih fokus ke pemasaran
                         online & berhubungan dengan dunia digital marketing</p>
                 </div>
                 <div class="hc_2 d-flex justify-content-center">
-                    <a href="/formpendaftaran"><button type="button" class="btn btn-primary">DAFTAR
+                    <a href="/formpendaftaran"><button type="button" class="fa-regular fa-id-badge">DAFTAR
                             SEKARANG</button></a>
 
                 </div>
@@ -230,67 +236,67 @@
 
                     <div class="col-md-6">
                         <div class="sticky-content mt-5 pe-5">
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 tblack p-3">
                                 <h5>Calon Peserta PKL harus memenuhi seluruh persyaratan pendaftaran</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Mengikuti Psikotest dan Interview sesuai jadwal yang ditentukan</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Calon peserta PKL wajib mengikuti tes kemampuan dasar & keahliannya sesuai jurusan
                                     masing-masing</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Bisa mengoperasionalkan MS Office (MS Word, MS Excel dan MS Power Point) </h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Membawa Smartphone & Laptop (Smartphone + OTG + keyboard wireless + mouse wireless +
                                     tripod mini)</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Membawa kartu perdana yang sudah ter-registrasi (AON 3) dengan masa aktif 1 tahun
                                     dan siap pakai.</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Peserta PKL tidak mendapat Gaji – Uang Transortasi – Uang Makan</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Peserta PKL akan mendapatkan Beasiswa senilai Rp 500.000,- /bulan jika Sekolah &
                                     Perusahaan sudah ada MoU</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Peserta PKL yang dari pihak Sekolah-nya belum ada MoU dengan Perusahaan akan
                                     menerima Voucher Beasiswa Senilai Rp 400.000,- & selebihnya di bebankan ke peserta
                                     PKL /bulan nya</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Peserta PKL tidak mendapat penginapan, bagi yang tinggal di luar kota</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3 w-100">
                                 <h5>Durasi PKL minimal selama 6 Bulan atau 1 Tahun
                                     </h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3 w-100">
                                 <h5>Jam Kerja mulai 08:00 – 16:00</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Peserta PKL wajib mengikuti pembekalan selama 2 minggu (100% kehadiran) sebagai
                                     syarat kelulusan</h3>
                             </div>
 
-                            <div class="bg-primary mb-3 text-white p-3">
+                            <div class="btn btn-outline-warning mb-3 text-black p-3">
                                 <h5>Seluruh peserta PKL wajib mengikuti dan mentaati peraturan perusahaan</h3>
                             </div>
                         </div>
@@ -301,7 +307,7 @@
 
         {{-- Tata Tertib --}}
 
-        <div class="container4" style="background-color:  #C1EFFF">
+        <div class="container4">
             <div class="tertib w-100">
                 <h3 class="text-center fw-bold pt-4" style="font-size: 4rem">TATA TERTIB</h3>
                 {{-- <div class="garis mb-5"></div> --}}
@@ -381,7 +387,7 @@
 
         <div class="container5">
             <div class="materi text-center">
-                <h1 class="text-center fw-bold pt-4">MATERI</h1>
+                <h3 class="text-center fw-bold pt-4" style="font-size: 4rem">MATERI</h3>
                 <div class="garis mb-5"></div>
 
                 <div class="row justify-content-center mt-5 me-5 ms-5 mb-5">
@@ -437,7 +443,7 @@
                                 <img src="img/bunur.jpg" class="card-img-top" alt="image">
                                 <div class="card-body">
                                     <h5 class="text-center fw-bold mt-4">Nursjamsiah,Ir</h5>
-                                    <p class="text-center" style="background-color: #C1EFFF">CEO</p>
+                                    <p class="text-center" style="background-color: #FFC93C">CEO</p>
                                 </div>
                             </div>
                         </div>
@@ -448,7 +454,7 @@
                                 <img src="img/pakfadli.jpg" class="card-img-top" alt="image">
                                 <div class="card-body">
                                     <h5 class="text-center fw-bold mt-4">Fadli Jihad</h5>
-                                    <p class="text-center" style="background-color: #C1EFFF">HRD</p>
+                                    <p class="text-center" style="background-color: #FFC93C">HRD</p>
                                 </div>
                             </div>
                         </div>
@@ -460,7 +466,7 @@
                                 <img src="img/pakapri.jpg" class="card-img-top" alt="image">
                                 <div class="card-body">
                                     <h5 class="text-center fw-bold mt-4">Aprianto</h5>
-                                    <p class="text-center" style="background-color: #C1EFFF">Pembimbing</p>
+                                    <p class="text-center" style="background-color: #FFC93C">Pembimbing</p>
                                 </div>
                             </div>
                         </div>
@@ -472,7 +478,7 @@
                                 <img src="img/pakrian.jpg" class="card-img-top" alt="image">
                                 <div class="card-body">
                                     <h5 class="text-center fw-bold mt-4">Rian M</h5>
-                                    <p class="text-center" style="background-color: #C1EFFF">Pembimbing</p>
+                                    <p class="text-center" style="background-color: #FFC93C">Pembimbing</p>
                                 </div>
                             </div>
                         </div>
@@ -488,7 +494,7 @@
         <!-- Swiper -->
         <div class="container7 mb-5">
             <div class="swiper mySwiper w-60 pb-5" id="gallery">
-                <h1 class="text-center fw-bold mt-5">GALLERY</h1>
+                <h1 class="text-center fw-bold mt-5" style="font-size: 4rem">GALLERY</h1>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="img/bacth1.jpeg"></div>
                     <div class="swiper-slide"><img src="img/bacth2.jpeg"></div>
@@ -515,7 +521,8 @@
         <div class="left">
             <h2>Prakerin Winata Cyber Net</h2>
             <p>Jl. Raya Kota Wisata, Boston RK-2 No.</p>
-            <p>Tiga Delapan(38), Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16968</p>
+            <p>Tiga Delapan(38), Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, <br>
+            Jawa Barat 16968</p>
 
             <div class="sosmed">
                 <div class="icon" id="fb">
@@ -536,7 +543,7 @@
             </div>
         </div>
         <div class="right">
-            <iframe src="https://www.google.com/maps/place/Tempat+PKL+Terbaik+di+Cibubur/@-6.3527376,106.9617275,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69936c48a20ee3:0xe323e1814be90896!8m2!3d-6.3527429!4d106.9639162!16s%2Fg%2F11p5thnv3k" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.318919991269!2d106.9639162!3d-6.352742899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69936c48a20ee3%3A0xe323e1814be90896!2sTempat%20PKL%20Terbaik%20di%20Cibubur!5e0!3m2!1sen!2sid!4v1677063395806!5m2!1sen!2sid" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </div>

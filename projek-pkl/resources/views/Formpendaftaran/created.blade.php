@@ -24,7 +24,7 @@
 <body>
 
     {{-- Navbar --}}
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #C1EFFF">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-image: linear-gradient(to right, #FDC830, #F37335);">
         <div class="container">
             <img src="img/about.png" alt="">
             <a class="navbar-brand" href="#">Winata Cyber Net</a>
