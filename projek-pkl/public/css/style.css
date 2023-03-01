@@ -176,6 +176,58 @@ body{
     margin-right: 50px;
 }
 
+/* .lokasi{
+    background-color: lightgray;
+    padding: 10px 0;
+    font-family: var(--font-roboto);
+} */
+.lokasi .container{
+    display: flex;
+    align-items: center;
+}
+.lokasi .left, .lokasi .right{
+    width: 50%;
+}
+.lokasi .left h2{
+    color: #0A7913;
+}
+.lokasi .left p{
+    margin: 10px 0;
+}
+
+.sosmed{
+    display: flex;
+    gap: 1rem;
+}
+.sosmed .icon{
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.sosmed .icon:hover{
+    transform: scale(1.2);
+}
+.sosmed>#fb{
+    background-color: #3b5998;
+}
+.sosmed>#yt{
+    background-color: #cd201f;
+}
+.sosmed>#ig{
+    background-color: #960a60;
+}
+.sosmed>#wa{
+    background-color: #25d366;
+}
+.sosmed .icon i {
+    color: white;
+}
+
 
 /* jurusan akhir */
 
@@ -254,3 +306,5 @@ body{
 } */
 
 /* Ketentuan Akhir */
+
+/* lokasi */

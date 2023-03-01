@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@300;400&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@300;400&family=Rampart+One&family=Roboto+Slab:wght@300&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -16,13 +21,17 @@
     --lesswhite: #F4F9F9;
     --lightblue2: #CCF2F4;
     --darkerblue: #125D98;
+    --yellow: #F2CD5C;
+    --orange: #F2921D;
+    --sage: #4E6C50;
+    --beige: #F2DEBA;
 } */
 
-.scrolling-active{
+/* .scrolling-active{
     background: gray;
     transition-duration: 0.8;
     opacity: 0.8;
-}
+} */
 
 .naik{
     display: none;
@@ -47,6 +56,11 @@ body {
 }
 
 /* navbar */
+
+.navbar{
+    background-image: linear-gradient(to right, #FDC830, #F37335);
+}
+
 .navbar-nav li {
     padding-left: 30px;
     font-weight: bold;
@@ -99,6 +113,15 @@ body {
     /* height: 100vh; */
     width: 100vw;
 }
+.header button{
+    border: none;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color:#FFC93C;
+    cursor: pointer;
+    font-family: var(--font-roboto);
+}
 
 
 
@@ -106,8 +129,12 @@ body {
 /* jurusan */
 
 .jurusan {
-    background-color: #C1EFFF;
+    background-image: linear-gradient(to right, #FDC830, #F37335);
     height: 100vh;
+}
+
+.jurusan h1{
+    font-family: 'Rampart One', cursive;
 }
 
 .item{
@@ -144,7 +171,29 @@ body {
     bottom: 0;
 }
 
+/* Tata Tertib */
+
+.container4{
+    background-image: linear-gradient(to right, #FDC830, #F37335);
+}
+.tertib h3{
+    font-family: 'Rampart One', cursive;
+}
+
+/* Materi */
+.materi h3{
+    font-family: 'Rampart One', cursive;
+}
+
+
 /* pembimbing */
+.container6{
+    background-image: linear-gradient(to right, #FDC830, #F37335);
+}
+
+.pembimbing h1{
+    font-family: 'Rampart One', cursive;
+}
 
 .item1{
     padding-right: 8px;
@@ -165,6 +214,10 @@ body {
 
 .item1 .card{
     border-radius: 12px;
+}
+
+.container7 h1{
+    font-family: 'Rampart One', cursive;
 }
 
 /* .carousel-inner img{
@@ -216,7 +269,7 @@ body {
 
 /* lokasi */
 .lokasi{
-    background-color: rgb(139, 188, 228);
+    background-image: linear-gradient(to right, #FDC830, #F37335);
     padding: 10px 0;
     font-family: var(--font-roboto);
 }
@@ -231,11 +284,11 @@ body {
 }
 
 .lokasi .left h2{
-    color: #1c1e9e;
+    color: black;
 }
 
 .lokasi  .left p{
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .sosmed{

@@ -36,7 +36,12 @@ class PesertaController extends Controller
          */
         public function store(Request $request)
         {
-            $dataPeserta = Peserta::create($request->all());
+            // $dataPeserta = Peserta::create($request->all());
+            
+            $this->validate($request, [
+                'cv' => 'nimes:doc,pdf,word',
+            ]
+            );
     
             if($request->hasFile('foto')){
                 $request->file('foto')->move('foto/.', $request->file('foto')->getClientOriginalName());
@@ -48,7 +53,12 @@ class PesertaController extends Controller
                 $request->file('kartu')->move('kartu/.', $request->file('kartu')->getClientOriginalName());
                 $dataPeserta->kartu = $request->file('kartu')->getClientOriginalName();
                 $dataPeserta->save();
-            }     
+            }   
+            if($request->hasFile('cv')){
+                $request->file('cv')->move('cv/.', $request->file('cv')->getClientOriginalName());
+                $dataPeserta->cv = $request->file('cv')->getClientOriginalName();
+                $dataPeserta->save();
+            }      
     
             return Redirect('/terimakasih')->with('success', 'Data Berhasil Ditambahkan');
 
