@@ -64,7 +64,7 @@
 
                 <div class="col-md-5 ms-5 me-5">
                     <div class="bungkus">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <label for="exampleFormControlInput1" class="form-label">Email Address</label>
                         <input type="email" class="form-control" name="email" id="exampleFormControlInput1"
                             placeholder="name@example.com">
                         @error('email')
